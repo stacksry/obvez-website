@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 180" role="img" aria-label="Obvez Labs">
+  <title>Obvez Labs</title>
+  <rect x="0" y="0" width="180" height="180" rx="40" ry="40" fill="#ffffff"/>
+  <g fill="#1d1d1f" font-family="-apple-system, 'SF Pro Display', 'Inter', Helvetica, Arial, sans-serif" font-weight="800" font-size="86" letter-spacing="-4" text-anchor="middle">
+    <text x="90" y="120">OL</text>
+  </g>
+  <g fill="#ffffff" font-family="-apple-system, 'SF Pro Display', 'Inter', Helvetica, Arial, sans-serif" font-weight="700" font-size="86" letter-spacing="-3">
+    <text x="220" y="120">Obvez Labs</text>
+  </g>
+</svg>

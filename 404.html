@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex">
+<title>Page not found — Obvez Labs</title>
+<link rel="icon" type="image/svg+xml" href="brand/favicon.svg">
+<link rel="apple-touch-icon" href="brand/apple-touch-icon.svg">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&amp;display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #ffffff;
+    --ink: #1d1d1f;
+    --muted: #6e6e73;
+    --accent: #0071e3;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; height: 100%; }
+  body {
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, "SF Pro Display", Helvetica, Arial, sans-serif;
+    color: var(--ink);
+    background: var(--bg);
+    -webkit-font-smoothing: antialiased;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 2rem;
+    text-align: center;
+  }
+  .wrap { max-width: 560px; }
+  .mark {
+    width: 80px; height: 80px;
+    display: inline-flex; align-items: center; justify-content: center;
+    background: var(--ink); color: #fff;
+    border-radius: 18px;
+    font-weight: 800; font-size: 34px; letter-spacing: -1.5px;
+    margin-bottom: 2rem;
+  }
+  h1 {
+    font-size: clamp(2.25rem, 1.5rem + 3vw, 4rem);
+    font-weight: 700;
+    letter-spacing: -0.035em;
+    line-height: 1.05;
+    margin: 0 0 1rem;
+  }
+  p {
+    font-size: clamp(1rem, 0.9rem + 0.4vw, 1.25rem);
+    color: var(--muted);
+    line-height: 1.55;
+    margin: 0 0 2rem;
+  }
+  a.btn {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background: var(--ink);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 999px;
+    font-weight: 500;
+    font-size: 1rem;
+    transition: background .2s ease;
+  }
+  a.btn:hover { background: #000; }
+  a.btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+</style>
+</head>
+<body>
+  <main class="wrap">
+    <div class="mark" aria-hidden="true">OL</div>
+    <h1>We can't find that page.</h1>
+    <p>The link may have moved, or you've mistyped the URL. Let's get you back on solid ground.</p>
+    <a class="btn" href="/">Back to Obvez Labs</a>
+  </main>
+</body>
+</html>

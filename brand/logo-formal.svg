@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 200" role="img" aria-label="Obvez Labs Private Limited">
+  <title>Obvez Labs Pvt. Ltd.</title>
+  <rect x="0" y="10" width="180" height="180" rx="40" ry="40" fill="#1d1d1f"/>
+  <g fill="#ffffff" font-family="-apple-system, 'SF Pro Display', 'Inter', Helvetica, Arial, sans-serif" font-weight="800" font-size="86" letter-spacing="-4" text-anchor="middle">
+    <text x="90" y="130">OL</text>
+  </g>
+  <g fill="#1d1d1f" font-family="-apple-system, 'SF Pro Display', 'Inter', Helvetica, Arial, sans-serif" font-weight="700" font-size="76" letter-spacing="-2.6">
+    <text x="220" y="112">Obvez Labs</text>
+  </g>
+  <g fill="#6e6e73" font-family="-apple-system, 'SF Pro Text', 'Inter', Helvetica, Arial, sans-serif" font-weight="500" font-size="22" letter-spacing="4">
+    <text x="222" y="158">PVT. LTD. · HYDERABAD</text>
+  </g>
+</svg>
