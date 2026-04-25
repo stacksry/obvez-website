@@ -7,9 +7,9 @@
 <meta name="theme-color" content="#1d1d1f" media="(prefers-color-scheme: dark)">
 <meta name="color-scheme" content="light">
 
-<title>Obvez Labs — Precision Pharmaceutical Analysis &amp; Microbiology CRO</title>
-<meta name="description" content="NABL accredited, FDA licensed pharmaceutical analytical &amp; microbiological CRO in Hyderabad. Method development, validation, stability, sterility &amp; endotoxin testing.">
-<meta name="keywords" content="pharmaceutical CRO, analytical testing, microbiology, NABL accredited, FDA licensed, Hyderabad, method validation, stability studies, HPLC, ICP-MS, sterility testing, endotoxin, GMP">
+<title>Obvez Labs — Pharmaceutical Analytical &amp; Microbiological CRO | Hyderabad</title>
+<meta name="description" content="NABL accredited, FDA licensed contract research organization for pharmaceutical analytical and microbiological testing. Method validation, stability, sterility, endotoxin, and regulatory submission support from Hyderabad, India.">
+<meta name="keywords" content="pharmaceutical CRO, analytical testing, microbiological testing, NABL accredited, FDA licensed, Hyderabad, method validation, stability studies, HPLC, ICP-MS, sterility testing, endotoxin, GMP, GLP, regulatory submission">
 <meta name="author" content="Obvez Labs Pvt. Ltd.">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="canonical" href="https://obvezlabs.com/">
@@ -18,19 +18,19 @@
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Obvez Labs">
 <meta property="og:url" content="https://obvezlabs.com/">
-<meta property="og:title" content="Obvez Labs — Precision Pharmaceutical Analysis &amp; Microbiology">
-<meta property="og:description" content="NABL accredited, FDA licensed contract research organization for analytical &amp; microbiological testing. Based in Hyderabad, serving pharma worldwide.">
-<meta property="og:image" content="https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&amp;fit=crop&amp;w=1200&amp;h=630&amp;q=80">
+<meta property="og:title" content="Obvez Labs — Pharmaceutical Analytical &amp; Microbiological CRO">
+<meta property="og:description" content="NABL accredited, FDA licensed contract research organization delivering analytical and microbiological testing for global pharmaceutical manufacturers.">
+<meta property="og:image" content="https://obvezlabs.com/brand/og-image.svg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="Close-up of a laboratory pipette transferring liquid into a microcentrifuge tube">
+<meta property="og:image:alt" content="Obvez Labs — pharmaceutical analytical and microbiological contract research organization.">
 <meta property="og:locale" content="en_IN">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@LabsObvez">
-<meta name="twitter:title" content="Obvez Labs — Precision Pharmaceutical Analysis &amp; Microbiology">
+<meta name="twitter:title" content="Obvez Labs — Pharmaceutical Analytical &amp; Microbiological CRO">
 <meta name="twitter:description" content="NABL accredited, FDA licensed analytical &amp; microbiological CRO. Hyderabad, India.">
-<meta name="twitter:image" content="https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&amp;fit=crop&amp;w=1200&amp;h=630&amp;q=80">
+<meta name="twitter:image" content="https://obvezlabs.com/brand/og-image.svg">
 
 <!-- Favicons (relative paths so file:// and offline previews resolve correctly) -->
 <link rel="icon" type="image/svg+xml" href="brand/favicon.svg">
@@ -42,22 +42,18 @@
 <script>document.documentElement.classList.add('js');</script>
 <noscript><style>.reveal{opacity:1 !important;transform:none !important}</style></noscript>
 
-<!-- Preconnect to image CDN for performance -->
-<link rel="preconnect" href="https://images.unsplash.com" crossorigin>
+<!-- Preconnect to font CDN for performance -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet">
 
 <!--
   ============================================================
-  IMAGE CREDITS & LICENSE
-  All photography below is sourced from Unsplash (unsplash.com)
-  under the Unsplash License (https://unsplash.com/license):
-    "All photos can be downloaded and used for free:
-     - Commercial and non-commercial purposes
-     - No permission needed (though attribution is appreciated)."
-  Specific images referenced by photo ID in the URL.
-  Replace with Obvez-owned photography as it becomes available.
+  IMAGE & ILLUSTRATION LICENSE
+  All visual assets on this page are original, in-house SVG
+  illustrations produced for Obvez Labs and are free of
+  third-party copyright, royalty, or attribution obligations.
+  No stock photography is used.
   ============================================================
 -->
 
@@ -361,6 +357,8 @@ p  { margin: 0; }
   box-shadow: var(--shadow-lg);
 }
 .hero__media img { width: 100%; height: 100%; object-fit: cover; object-position: center; }
+.hero__media--svg { background: linear-gradient(180deg, #f5f5f7 0%, #e8e8ed 100%); }
+.hero__svg { width: 100%; height: 100%; display: block; }
 .hero__badge {
   position: absolute; backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px);
   background: rgba(255,255,255,.85);
@@ -396,6 +394,8 @@ p  { margin: 0; }
   box-shadow: var(--shadow-lg);
 }
 .about__media img { width: 100%; height: 100%; object-fit: cover; }
+.about__media--svg { background: linear-gradient(180deg, #ffffff 0%, #f5f5f7 100%); border: 1px solid var(--border-soft); }
+.about__svg { width: 100%; height: 100%; display: block; }
 .pillars { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: 14px; margin-top: 40px; }
 .pillar { padding: 20px; background: var(--bg); border: 1px solid var(--border-soft); border-radius: var(--radius); }
 .pillar__n { font-size: 1.2rem; font-weight: 600; letter-spacing: -.01em; margin-bottom: 4px; }
@@ -410,16 +410,18 @@ p  { margin: 0; }
 
 /* ---------- Services ---------- */
 .services__grid { display: grid; gap: 16px; }
-@media (min-width: 720px) { .services__grid { grid-template-columns: repeat(2, 1fr); } }
+@media (min-width: 720px) { .services__grid { grid-template-columns: repeat(3, 1fr); } }
 .service {
   background: var(--bg-alt); border-radius: var(--radius-xl);
   overflow: hidden; display: flex; flex-direction: column;
   transition: transform .4s var(--ease-out), box-shadow .4s var(--ease-out);
 }
 .service:hover { transform: translateY(-4px); box-shadow: var(--shadow-lg); }
-.service__media { position: relative; aspect-ratio: 16 / 9; overflow: hidden; background: var(--bg); }
+.service__media { position: relative; aspect-ratio: 16 / 9; overflow: hidden; background: var(--bg); border-bottom: 1px solid var(--border-soft); }
 .service__media img { width: 100%; height: 100%; object-fit: cover; transition: transform .8s var(--ease-out); }
-.service:hover .service__media img { transform: scale(1.04); }
+.service__media svg { width: 100%; height: 100%; display: block; transition: transform .8s var(--ease-out); }
+.service:hover .service__media img,
+.service:hover .service__media svg { transform: scale(1.04); }
 .service__body { padding: clamp(24px, 3vw, 36px); display: flex; flex-direction: column; gap: 16px; flex-grow: 1; }
 .service__eyebrow { font-size: .72rem; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; color: var(--text-muted); }
 .service h3 { font-size: clamp(1.4rem, 2.2vw, 1.9rem); }
@@ -428,18 +430,6 @@ p  { margin: 0; }
 .service li svg { width: 16px; height: 16px; color: var(--text); flex-shrink: 0; margin-top: 4px; }
 
 /* ---------- Product coverage ---------- */
-/* Clients strip */
-.clients-strip { border-top: 1px solid var(--border-soft); border-bottom: 1px solid var(--border-soft); padding-block: clamp(36px, 5vw, 64px); background: var(--bg-soft); }
-.clients-strip__head { text-align: center; margin-bottom: clamp(24px, 3vw, 40px); }
-.clients-strip__head p { font-size: .75rem; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; color: var(--text-muted); }
-.clients-strip__logos { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 4px 0; }
-.clients-strip__logo { display: flex; align-items: center; justify-content: center; padding: 14px 24px; opacity: .55; transition: opacity .2s; }
-.clients-strip__logo:hover { opacity: 1; }
-.clients-strip__logo img { height: 32px; width: auto; max-width: 120px; object-fit: contain; filter: grayscale(1); mix-blend-mode: multiply; }
-.clients-strip__more { text-align: center; margin-top: clamp(20px, 3vw, 36px); }
-.clients-strip__more a { font-size: .85rem; font-weight: 500; color: var(--accent); text-decoration: none; }
-.clients-strip__more a:hover { text-decoration: underline; }
-
 .coverage { background: var(--bg); border-top: 1px solid var(--border-soft); }
 .coverage__pills { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; max-width: 900px; margin-inline: auto; }
 .pill { padding: 10px 18px; border-radius: 980px; background: var(--bg-alt); font-size: .95rem; font-weight: 500; color: var(--text); border: 1px solid transparent; transition: background .2s var(--ease-out), border-color .2s var(--ease-out); }
@@ -505,11 +495,19 @@ p  { margin: 0; }
 }
 .cta-band::before {
   content: ''; position: absolute; inset: 0; z-index: -2;
-  background: url('https://images.unsplash.com/photo-1579154204601-01588f351e67?auto=format&amp;fit=crop&amp;w=2400&amp;q=80') center/cover no-repeat;
+  background:
+    radial-gradient(1200px 600px at 85% 20%, rgba(0,113,227,.18) 0%, transparent 60%),
+    radial-gradient(900px 500px at 15% 80%, rgba(52,199,89,.10) 0%, transparent 55%),
+    linear-gradient(135deg, #0b0b0d 0%, #1d1d1f 55%, #2c2c2e 100%);
 }
 .cta-band::after {
   content: ''; position: absolute; inset: 0; z-index: -1;
-  background: linear-gradient(120deg, rgba(0,0,0,.78) 0%, rgba(0,0,0,.55) 40%, rgba(0,0,0,.35) 100%);
+  background-image:
+    linear-gradient(rgba(255,255,255,.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,.035) 1px, transparent 1px);
+  background-size: 48px 48px;
+  mask-image: radial-gradient(ellipse at center, #000 40%, transparent 85%);
+  -webkit-mask-image: radial-gradient(ellipse at center, #000 40%, transparent 85%);
 }
 .cta-band__content { max-width: 680px; padding-block: clamp(80px, 10vw, 120px); }
 .cta-band h2 { color: var(--text-inverse); }
@@ -642,17 +640,17 @@ body.no-scroll { overflow: hidden; }
     <div class="hero__copy">
       <span class="hero__eyebrow reveal">
         <span class="dot" aria-hidden="true"></span>
-        NABL Accredited · FDA Licensed
+        NABL Accredited · FDA Licensed · ISO Certified
       </span>
       <h1 class="hero__title reveal reveal--delay-1" id="hero-title">
-        Precision, <em>distilled</em>
+        Evidence-grade <em>analytical science.</em>
       </h1>
       <p class="hero__sub reveal reveal--delay-2">
-        Obvez Labs is an analytical &amp; microbiological contract research organization built for pharmaceutical companies that refuse to compromise on data integrity, regulatory compliance, or turnaround.
+        Obvez Labs is a contract research organization delivering pharmaceutical analytical and microbiological testing to global manufacturers. Our laboratories in Hyderabad are engineered for regulatory rigor, reproducibility, and defensible data.
       </p>
       <div class="hero__cta reveal reveal--delay-3">
-        <a class="btn btn--primary btn--lg" href="#services">Explore our services</a>
-        <a class="btn btn--ghost btn--lg" href="#contact">Request a quote
+        <a class="btn btn--primary btn--lg" href="#services">View our services</a>
+        <a class="btn btn--ghost btn--lg" href="#contact">Request a proposal
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
         </a>
       </div>
@@ -663,16 +661,109 @@ body.no-scroll { overflow: hidden; }
       </dl>
     </div>
 
-    <figure class="hero__media reveal reveal--delay-2">
-      <!-- Image: laboratory scientist pipetting (Unsplash photo-1532187863486-abf9dbad1b69) -->
-      <img
-        src="https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&amp;fit=crop&amp;w=1400&amp;q=80"
-        srcset="https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&amp;fit=crop&amp;w=900&amp;q=80 900w,
-                https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&amp;fit=crop&amp;w=1400&amp;q=80 1400w,
-                https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&amp;fit=crop&amp;w=1800&amp;q=80 1800w"
-        sizes="(min-width: 900px) 46vw, 100vw"
-        alt="Laboratory scientist in blue gloves pipetting a clear liquid into a row of sample tubes under clean overhead lighting."
-        width="1400" height="1750" loading="eager" fetchpriority="high" decoding="async">
+    <figure class="hero__media hero__media--svg reveal reveal--delay-2" aria-label="Illustrated HPLC chromatogram showing separation of pharmaceutical compounds over retention time.">
+      <svg class="hero__svg" viewBox="0 0 560 700" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" role="img" aria-labelledby="heroSvgTitle heroSvgDesc">
+        <title id="heroSvgTitle">Chromatogram visualization</title>
+        <desc id="heroSvgDesc">An abstract depiction of a pharmaceutical HPLC chromatogram with labeled peaks on a grid.</desc>
+        <defs>
+          <linearGradient id="heroBg" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" stop-color="#f5f5f7"/>
+            <stop offset="1" stop-color="#e8e8ed"/>
+          </linearGradient>
+          <linearGradient id="heroPeak" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" stop-color="#1d1d1f" stop-opacity=".95"/>
+            <stop offset="1" stop-color="#1d1d1f" stop-opacity=".55"/>
+          </linearGradient>
+          <linearGradient id="heroPeakAccent" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" stop-color="#0071e3"/>
+            <stop offset="1" stop-color="#0071e3" stop-opacity=".35"/>
+          </linearGradient>
+          <pattern id="heroGrid" width="40" height="40" patternUnits="userSpaceOnUse">
+            <path d="M40 0H0V40" fill="none" stroke="rgba(29,29,31,.06)" stroke-width="1"/>
+          </pattern>
+        </defs>
+
+        <!-- Background + grid -->
+        <rect width="560" height="700" fill="url(#heroBg)"/>
+        <rect width="560" height="700" fill="url(#heroGrid)"/>
+
+        <!-- Plot area border -->
+        <rect x="48" y="80" width="464" height="540" fill="none" stroke="rgba(29,29,31,.12)" stroke-width="1"/>
+
+        <!-- Y axis labels -->
+        <g font-family="Inter, sans-serif" font-size="10" fill="rgba(29,29,31,.45)" text-anchor="end">
+          <text x="42" y="96">mAU</text>
+          <text x="42" y="200">400</text>
+          <text x="42" y="320">300</text>
+          <text x="42" y="440">200</text>
+          <text x="42" y="560">100</text>
+          <text x="42" y="616">0</text>
+        </g>
+
+        <!-- X axis ticks + labels -->
+        <g font-family="Inter, sans-serif" font-size="10" fill="rgba(29,29,31,.45)" text-anchor="middle">
+          <text x="120" y="640">2</text>
+          <text x="212" y="640">4</text>
+          <text x="304" y="640">6</text>
+          <text x="396" y="640">8</text>
+          <text x="488" y="640">10</text>
+          <text x="280" y="662" font-size="10" letter-spacing=".08em">RETENTION TIME (MIN)</text>
+        </g>
+
+        <!-- Baseline -->
+        <line x1="48" y1="615" x2="512" y2="615" stroke="rgba(29,29,31,.22)" stroke-width="1"/>
+
+        <!-- Chromatogram trace — smooth gaussian-like peaks -->
+        <path d="M48 615
+                 L120 615
+                 Q135 615 148 520
+                 Q160 280 172 520
+                 Q185 615 210 615
+                 L250 615
+                 Q270 615 285 440
+                 Q300 200 315 440
+                 Q330 615 360 615
+                 L388 615
+                 Q404 615 415 480
+                 Q428 340 440 480
+                 Q452 615 480 615
+                 L512 615"
+              fill="none" stroke="url(#heroPeakAccent)" stroke-width="2.4" stroke-linejoin="round"/>
+
+        <!-- Filled peak overlay for depth -->
+        <path d="M48 615
+                 L120 615
+                 Q135 615 148 520
+                 Q160 280 172 520
+                 Q185 615 210 615
+                 L250 615
+                 Q270 615 285 440
+                 Q300 200 315 440
+                 Q330 615 360 615
+                 L388 615
+                 Q404 615 415 480
+                 Q428 340 440 480
+                 Q452 615 480 615
+                 L512 615 Z"
+              fill="url(#heroPeak)" opacity=".08"/>
+
+        <!-- Peak markers -->
+        <g font-family="Inter, sans-serif" font-size="10" font-weight="600" fill="#1d1d1f">
+          <circle cx="160" cy="280" r="3" fill="#0071e3"/>
+          <text x="170" y="272">Peak 1 · 3.2 min</text>
+          <circle cx="300" cy="200" r="3" fill="#0071e3"/>
+          <text x="310" y="192">Peak 2 · 6.1 min</text>
+          <circle cx="428" cy="340" r="3" fill="#0071e3"/>
+          <text x="340" y="332" text-anchor="end">Peak 3 · 8.4 min</text>
+        </g>
+
+        <!-- Header label -->
+        <g font-family="Inter, sans-serif">
+          <text x="48" y="48" font-size="11" font-weight="600" letter-spacing=".1em" fill="#6e6e73">METHOD · HPLC-UV</text>
+          <text x="48" y="68" font-size="13" font-weight="600" fill="#1d1d1f">Assay &amp; impurity profile</text>
+          <text x="512" y="48" font-size="11" font-weight="600" letter-spacing=".1em" fill="#6e6e73" text-anchor="end">ICH Q2(R2)</text>
+        </g>
+      </svg>
       <div class="hero__badge hero__badge--1" aria-hidden="true">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
         FDA Licensed
@@ -687,59 +778,113 @@ body.no-scroll { overflow: hidden; }
 
 
 <!-- =========================================
-     CLIENTS STRIP
-     ========================================= -->
-<section class="clients-strip" aria-label="Trusted by leading pharmaceutical companies">
-  <div class="container">
-    <div class="clients-strip__head">
-      <p>Trusted by leading pharma</p>
-    </div>
-    <div class="clients-strip__logos" role="list" aria-label="Client logos">
-      <div class="clients-strip__logo" role="listitem"><img src="clients/drreddys_logo.png" alt="Dr. Reddy's Laboratories" loading="lazy"></div>
-      <div class="clients-strip__logo" role="listitem"><img src="clients/aurobindo_logo.webp" alt="Aurobindo Pharma" loading="lazy"></div>
-      <div class="clients-strip__logo" role="listitem"><img src="clients/gland_logo.png" alt="Gland Pharma" loading="lazy"></div>
-      <div class="clients-strip__logo" role="listitem"><img src="clients/hetero_logo.png" alt="Hetero" loading="lazy"></div>
-      <div class="clients-strip__logo" role="listitem"><img src="clients/bioe_logo.png" alt="Biological E" loading="lazy"></div>
-      <div class="clients-strip__logo" role="listitem"><img src="clients/zenotech_logo.jpg" alt="Zenotech" loading="lazy"></div>
-      <div class="clients-strip__logo" role="listitem"><img src="clients/synergene_logo.png" alt="Synergene Active Ingredients" loading="lazy"></div>
-      <div class="clients-strip__logo" role="listitem"><img src="clients/lee_logo.png" alt="Lee Pharma" loading="lazy"></div>
-    </div>
-    <div class="clients-strip__more">
-      <a href="clients.html">See all clients &rarr;</a>
-    </div>
-  </div>
-</section>
-
-
-<!-- =========================================
      ABOUT
      ========================================= -->
 <section class="section about" id="about" aria-labelledby="about-title">
   <div class="container about__grid">
-    <figure class="about__media reveal">
-      <!-- Image: microscope close-up (Unsplash photo-1576086213369-97a306d36557) -->
-      <img
-        src="https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&amp;fit=crop&amp;w=1600&amp;q=80"
-        srcset="https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&amp;fit=crop&amp;w=900&amp;q=80 900w,
-                https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&amp;fit=crop&amp;w=1600&amp;q=80 1600w"
-        sizes="(min-width: 900px) 40vw, 100vw"
-        alt="A modern research microscope with a turret of objectives illuminated over a white workbench."
-        width="1600" height="1280" loading="lazy" decoding="async">
+    <figure class="about__media about__media--svg reveal" aria-label="Schematic of a pharmaceutical testing facility showing analytical and microbiological workstreams.">
+      <svg class="about__svg" viewBox="0 0 600 480" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" role="img" aria-labelledby="aboutSvgTitle">
+        <title id="aboutSvgTitle">Laboratory workflow schematic</title>
+        <defs>
+          <linearGradient id="aboutBg" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="#ffffff"/>
+            <stop offset="1" stop-color="#f5f5f7"/>
+          </linearGradient>
+        </defs>
+        <rect width="600" height="480" fill="url(#aboutBg)"/>
+
+        <!-- HPLC column schematic -->
+        <g transform="translate(60,60)">
+          <rect x="0" y="0" width="200" height="360" rx="14" fill="#ffffff" stroke="#d2d2d7"/>
+          <text x="20" y="28" font-family="Inter,sans-serif" font-size="10" font-weight="600" letter-spacing=".1em" fill="#6e6e73">ANALYTICAL</text>
+          <text x="20" y="50" font-family="Inter,sans-serif" font-size="14" font-weight="600" fill="#1d1d1f">HPLC system</text>
+
+          <!-- Solvent reservoirs -->
+          <g transform="translate(20,76)">
+            <rect x="0" y="0" width="38" height="52" rx="4" fill="#f5f5f7" stroke="#d2d2d7"/>
+            <rect x="2" y="18" width="34" height="32" rx="2" fill="#0071e3" opacity=".5"/>
+            <rect x="50" y="0" width="38" height="52" rx="4" fill="#f5f5f7" stroke="#d2d2d7"/>
+            <rect x="52" y="10" width="34" height="40" rx="2" fill="#1d1d1f" opacity=".6"/>
+            <rect x="100" y="0" width="38" height="52" rx="4" fill="#f5f5f7" stroke="#d2d2d7"/>
+            <rect x="102" y="26" width="34" height="24" rx="2" fill="#34c759" opacity=".55"/>
+          </g>
+
+          <!-- Pump + column -->
+          <rect x="20" y="150" width="160" height="28" rx="4" fill="#1d1d1f"/>
+          <text x="100" y="169" font-family="Inter,sans-serif" font-size="10" font-weight="600" fill="#ffffff" text-anchor="middle" letter-spacing=".1em">QUATERNARY PUMP</text>
+
+          <rect x="60" y="190" width="80" height="110" rx="8" fill="#f5f5f7" stroke="#d2d2d7"/>
+          <rect x="70" y="200" width="60" height="90" rx="4" fill="#ffffff" stroke="#d2d2d7"/>
+          <g stroke="#0071e3" stroke-width="1" fill="none" opacity=".35">
+            <path d="M70 215h60M70 230h60M70 245h60M70 260h60M70 275h60"/>
+          </g>
+          <text x="100" y="320" font-family="Inter,sans-serif" font-size="10" fill="#6e6e73" text-anchor="middle">C18 column</text>
+
+          <!-- Detector -->
+          <rect x="20" y="330" width="160" height="18" rx="4" fill="#ffffff" stroke="#d2d2d7"/>
+          <circle cx="40" cy="339" r="5" fill="#34c759"/>
+          <text x="54" y="342" font-family="Inter,sans-serif" font-size="10" font-weight="600" fill="#1d1d1f">PDA detector</text>
+        </g>
+
+        <!-- Microbiology workflow -->
+        <g transform="translate(320,60)">
+          <rect x="0" y="0" width="220" height="360" rx="14" fill="#ffffff" stroke="#d2d2d7"/>
+          <text x="20" y="28" font-family="Inter,sans-serif" font-size="10" font-weight="600" letter-spacing=".1em" fill="#6e6e73">MICROBIOLOGY</text>
+          <text x="20" y="50" font-family="Inter,sans-serif" font-size="14" font-weight="600" fill="#1d1d1f">Sterility &amp; BET</text>
+
+          <!-- Petri dishes grid -->
+          <g transform="translate(20,80)">
+            <circle cx="40" cy="40" r="36" fill="#f5f5f7" stroke="#d2d2d7"/>
+            <circle cx="40" cy="40" r="30" fill="none" stroke="#0071e3" stroke-width=".5" opacity=".3"/>
+            <circle cx="30" cy="34" r="2.5" fill="#1d1d1f" opacity=".6"/>
+            <circle cx="48" cy="30" r="1.6" fill="#1d1d1f" opacity=".55"/>
+            <circle cx="52" cy="48" r="2" fill="#1d1d1f" opacity=".5"/>
+            <circle cx="34" cy="50" r="1.8" fill="#1d1d1f" opacity=".55"/>
+            <circle cx="44" cy="44" r="1.4" fill="#1d1d1f" opacity=".6"/>
+
+            <circle cx="140" cy="40" r="36" fill="#f5f5f7" stroke="#d2d2d7"/>
+            <circle cx="140" cy="40" r="30" fill="none" stroke="#0071e3" stroke-width=".5" opacity=".3"/>
+            <circle cx="132" cy="36" r="1.8" fill="#1d1d1f" opacity=".55"/>
+            <circle cx="146" cy="44" r="1.4" fill="#1d1d1f" opacity=".55"/>
+            <circle cx="136" cy="48" r="2" fill="#1d1d1f" opacity=".55"/>
+            <circle cx="150" cy="32" r="1.2" fill="#1d1d1f" opacity=".55"/>
+
+            <circle cx="40" cy="140" r="36" fill="#f5f5f7" stroke="#d2d2d7"/>
+            <circle cx="40" cy="140" r="30" fill="none" stroke="#0071e3" stroke-width=".5" opacity=".3"/>
+
+            <circle cx="140" cy="140" r="36" fill="#f5f5f7" stroke="#d2d2d7"/>
+            <circle cx="140" cy="140" r="30" fill="none" stroke="#0071e3" stroke-width=".5" opacity=".3"/>
+            <circle cx="134" cy="134" r="2" fill="#1d1d1f" opacity=".6"/>
+            <circle cx="146" cy="146" r="1.6" fill="#1d1d1f" opacity=".6"/>
+          </g>
+
+          <!-- BET readout -->
+          <g transform="translate(20,262)">
+            <rect x="0" y="0" width="180" height="72" rx="8" fill="#1d1d1f"/>
+            <text x="14" y="22" font-family="Inter,sans-serif" font-size="9" font-weight="600" letter-spacing=".1em" fill="#a1a1a6">BET · CHROMOGENIC</text>
+            <text x="14" y="46" font-family="Inter,sans-serif" font-size="20" font-weight="700" fill="#ffffff">0.012 EU/mL</text>
+            <text x="14" y="62" font-family="Inter,sans-serif" font-size="10" fill="#34c759" font-weight="600">◉ Within specification</text>
+          </g>
+        </g>
+
+        <!-- Connecting dashed line -->
+        <line x1="260" y1="240" x2="320" y2="240" stroke="#d2d2d7" stroke-width="1" stroke-dasharray="4 4"/>
+      </svg>
     </figure>
 
     <div class="about__body reveal reveal--delay-1">
-      <p class="eyebrow">About Obvez</p>
-      <h2 id="about-title">A trusted partner in pharmaceutical testing</h2>
+      <p class="eyebrow">About Obvez Labs</p>
+      <h2 id="about-title">A disciplined partner for pharmaceutical testing.</h2>
       <p style="margin-top: 20px; color: var(--text-muted); font-size: var(--fs-lg); max-width: 56ch;">
-        Headquartered in Hyderabad, India, Obvez Labs Pvt. Ltd. is a client-centric analytical CRO serving pharmaceutical companies worldwide. Our facility is equipped with advanced instrumentation &mdash; from ICP-MS and HPLC to Ion Chromatography &mdash; enabling us to handle complex biopharmaceuticals, nanoparticle-based formulations, and standard dosage forms with equal proficiency.
+        Headquartered in Hyderabad, India, Obvez Labs Pvt. Ltd. is a contract research organization serving pharmaceutical manufacturers across domestic and regulated international markets. Our facility is equipped with advanced analytical instrumentation &mdash; ICP-MS, HPLC, GC head-space, ion chromatography, and FT-IR &mdash; to support complex biopharmaceuticals, nanoparticle-based formulations, and conventional dosage forms with equal rigor.
       </p>
       <p style="margin-top: 18px; color: var(--text-muted); font-size: var(--fs-base); max-width: 56ch;">
-        We prioritize regulatory compliance, data integrity, and patient safety &mdash; in that order, always.
+        Regulatory compliance, data integrity, and patient safety are non-negotiable &mdash; in that order, on every study.
       </p>
       <div class="pillars">
-        <div class="pillar"><div class="pillar__n">Integrity</div><div class="pillar__t">Ethical data practices aligned with global guidelines.</div></div>
-        <div class="pillar"><div class="pillar__n">Precision</div><div class="pillar__t">Methods engineered for ppb-level sensitivity.</div></div>
-        <div class="pillar"><div class="pillar__n">Reach</div><div class="pillar__t">High-volume handling for international pharma.</div></div>
+        <div class="pillar"><div class="pillar__n">Integrity</div><div class="pillar__t">ALCOA+ data practices aligned to ICH, USP, and IP.</div></div>
+        <div class="pillar"><div class="pillar__n">Precision</div><div class="pillar__t">Methods qualified for ppb-level sensitivity.</div></div>
+        <div class="pillar"><div class="pillar__n">Reach</div><div class="pillar__t">Throughput calibrated for regulated global markets.</div></div>
       </div>
     </div>
   </div>
@@ -752,24 +897,54 @@ body.no-scroll { overflow: hidden; }
 <section class="section" id="services" aria-labelledby="services-title" style="background: var(--bg);">
   <div class="container">
     <div class="section-head reveal">
-      <p class="eyebrow">What we do</p>
-      <h2 id="services-title">Comprehensive testing, end to end</h2>
-      <p>From method development through regulatory submission support &mdash; a single, accountable partner for every phase of your analytical program.</p>
+      <p class="eyebrow">Services</p>
+      <h2 id="services-title">Testing infrastructure, end to end.</h2>
+      <p>From analytical method development through regulatory submission support &mdash; one accountable partner for every phase of your testing program.</p>
     </div>
 
     <div class="services__grid">
       <!-- Analytical -->
       <article class="service reveal">
         <div class="service__media">
-          <!-- Image: scientist operating HPLC / chromatography (Unsplash photo-1614935151651-0bea6508db6b) -->
-          <img src="https://images.unsplash.com/photo-1614935151651-0bea6508db6b?auto=format&amp;fit=crop&amp;w=1600&amp;q=80"
-               sizes="(min-width: 720px) 48vw, 100vw"
-               alt="Scientist operating an HPLC chromatography instrument in an analytical laboratory."
-               width="1600" height="900" loading="lazy" decoding="async">
+          <svg viewBox="0 0 640 360" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Abstract chromatogram illustrating analytical separation of pharmaceutical compounds.">
+            <defs>
+              <linearGradient id="svcA-bg" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" stop-color="#ffffff"/>
+                <stop offset="1" stop-color="#f5f5f7"/>
+              </linearGradient>
+              <pattern id="svcA-grid" width="32" height="32" patternUnits="userSpaceOnUse">
+                <path d="M32 0H0V32" fill="none" stroke="rgba(29,29,31,.06)" stroke-width="1"/>
+              </pattern>
+            </defs>
+            <rect width="640" height="360" fill="url(#svcA-bg)"/>
+            <rect width="640" height="360" fill="url(#svcA-grid)"/>
+            <line x1="32" y1="300" x2="608" y2="300" stroke="rgba(29,29,31,.25)" stroke-width="1"/>
+            <path d="M32 300
+                     L120 300
+                     Q135 300 148 200
+                     Q160 80 172 200
+                     Q185 300 220 300
+                     L280 300
+                     Q298 300 312 160
+                     Q326 40 340 160
+                     Q354 300 390 300
+                     L450 300
+                     Q466 300 478 210
+                     Q490 120 502 210
+                     Q514 300 540 300
+                     L608 300"
+                  fill="none" stroke="#0071e3" stroke-width="2.4" stroke-linejoin="round"/>
+            <path d="M32 300 L120 300 Q135 300 148 200 Q160 80 172 200 Q185 300 220 300 L280 300 Q298 300 312 160 Q326 40 340 160 Q354 300 390 300 L450 300 Q466 300 478 210 Q490 120 502 210 Q514 300 540 300 L608 300 Z"
+                  fill="#1d1d1f" opacity=".06"/>
+            <g font-family="Inter,sans-serif" font-size="10" font-weight="600" letter-spacing=".1em" fill="#6e6e73">
+              <text x="32" y="28">HPLC · ICH Q2(R2)</text>
+              <text x="608" y="28" text-anchor="end">mAU vs. min</text>
+            </g>
+          </svg>
         </div>
         <div class="service__body">
           <p class="service__eyebrow">01 &mdash; Analytical</p>
-          <h3>Analytical Services</h3>
+          <h3>Analytical services.</h3>
           <p class="muted">High-precision chemical analysis using chromatography, spectroscopy, and wet-chemistry techniques.</p>
           <ul>
             <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Method development &amp; validation (ICH Q2R)</li>
@@ -785,15 +960,49 @@ body.no-scroll { overflow: hidden; }
       <!-- Microbiology -->
       <article class="service reveal reveal--delay-1">
         <div class="service__media">
-          <!-- Image: close-up of petri dishes with microbial cultures in a microbiology lab (Unsplash photo-1559757148-5c350d0d3c56) -->
-          <img src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&amp;fit=crop&amp;w=1600&amp;q=80"
-               sizes="(min-width: 720px) 48vw, 100vw"
-               alt="Petri dishes with microbial cultures under controlled lab conditions."
-               width="1600" height="900" loading="lazy" decoding="async">
+          <svg viewBox="0 0 640 360" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Three petri dishes illustrating microbial limits and sterility testing.">
+            <defs>
+              <linearGradient id="svcM-bg" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#f5f5f7"/>
+                <stop offset="1" stop-color="#e8e8ed"/>
+              </linearGradient>
+              <radialGradient id="svcM-agar" cx=".5" cy=".45" r=".55">
+                <stop offset="0" stop-color="#ffffff"/>
+                <stop offset="1" stop-color="#f5f5f7"/>
+              </radialGradient>
+            </defs>
+            <rect width="640" height="360" fill="url(#svcM-bg)"/>
+            <g>
+              <!-- Dish 1 -->
+              <circle cx="140" cy="180" r="102" fill="url(#svcM-agar)" stroke="#d2d2d7" stroke-width="1.5"/>
+              <circle cx="140" cy="180" r="92" fill="none" stroke="#0071e3" stroke-width=".6" opacity=".35"/>
+              <g fill="#1d1d1f" opacity=".6">
+                <circle cx="110" cy="155" r="4"/><circle cx="155" cy="142" r="3"/><circle cx="170" cy="180" r="3.5"/>
+                <circle cx="125" cy="200" r="2.5"/><circle cx="145" cy="215" r="4"/><circle cx="102" cy="185" r="2"/>
+                <circle cx="128" cy="172" r="2"/><circle cx="160" cy="210" r="2.2"/><circle cx="118" cy="130" r="1.8"/>
+              </g>
+              <!-- Dish 2 -->
+              <circle cx="320" cy="180" r="102" fill="url(#svcM-agar)" stroke="#d2d2d7" stroke-width="1.5"/>
+              <circle cx="320" cy="180" r="92" fill="none" stroke="#0071e3" stroke-width=".6" opacity=".35"/>
+              <g fill="#1d1d1f" opacity=".6">
+                <circle cx="300" cy="160" r="3"/><circle cx="335" cy="150" r="2.5"/><circle cx="345" cy="195" r="3.5"/>
+                <circle cx="295" cy="200" r="2"/><circle cx="315" cy="220" r="3"/><circle cx="280" cy="180" r="2"/>
+              </g>
+              <!-- Dish 3 -->
+              <circle cx="500" cy="180" r="102" fill="url(#svcM-agar)" stroke="#d2d2d7" stroke-width="1.5"/>
+              <circle cx="500" cy="180" r="92" fill="none" stroke="#0071e3" stroke-width=".6" opacity=".35"/>
+              <circle cx="500" cy="180" r="3" fill="#34c759"/>
+              <text x="500" y="175" font-family="Inter,sans-serif" font-size="10" font-weight="600" fill="#6e6e73" text-anchor="middle" dy="18">No growth</text>
+            </g>
+            <g font-family="Inter,sans-serif" font-size="10" font-weight="600" letter-spacing=".1em" fill="#6e6e73">
+              <text x="32" y="28">USP &lt;61&gt; · &lt;62&gt; · &lt;71&gt;</text>
+              <text x="608" y="28" text-anchor="end">BET · MLT · STERILITY</text>
+            </g>
+          </svg>
         </div>
         <div class="service__body">
           <p class="service__eyebrow">02 &mdash; Microbiology</p>
-          <h3>Microbiology Services</h3>
+          <h3>Microbiology services.</h3>
           <p class="muted">Sterility, endotoxin, microbial limits, and environmental monitoring &mdash; methods matched to your dosage form.</p>
           <ul>
             <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Microbial limits testing (MLT), sterility &amp; BET</li>
@@ -807,18 +1016,68 @@ body.no-scroll { overflow: hidden; }
       </article>
 
       <!-- Quality -->
-      <article class="service reveal">
+      <article class="service reveal reveal--delay-2">
         <div class="service__media">
-          <!-- Image: scientist reviewing GMP compliance documents and SOPs (Unsplash photo-1454165804606-c3d57bc86b40) -->
-          <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&amp;fit=crop&amp;w=1600&amp;q=80"
-               sizes="(min-width: 720px) 48vw, 100vw"
-               alt="Scientist reviewing GMP compliance documents and standard operating procedures."
-               width="1600" height="900" loading="lazy" decoding="async">
+          <svg viewBox="0 0 640 360" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Compliance document with verified quality checkmarks and audit stamp.">
+            <defs>
+              <linearGradient id="svcQ-bg" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" stop-color="#ffffff"/>
+                <stop offset="1" stop-color="#f5f5f7"/>
+              </linearGradient>
+            </defs>
+            <rect width="640" height="360" fill="url(#svcQ-bg)"/>
+            <!-- Document stack -->
+            <g transform="translate(170,50)">
+              <rect x="8" y="8" width="300" height="260" rx="8" fill="#ffffff" stroke="#d2d2d7" opacity=".6"/>
+              <rect x="4" y="4" width="300" height="260" rx="8" fill="#ffffff" stroke="#d2d2d7" opacity=".8"/>
+              <rect x="0" y="0" width="300" height="260" rx="8" fill="#ffffff" stroke="#d2d2d7"/>
+              <!-- Header -->
+              <text x="24" y="36" font-family="Inter,sans-serif" font-size="10" font-weight="600" letter-spacing=".14em" fill="#6e6e73">STANDARD OPERATING PROCEDURE</text>
+              <text x="24" y="60" font-family="Inter,sans-serif" font-size="15" font-weight="600" fill="#1d1d1f">SOP-QA-0042 · Method validation</text>
+              <line x1="24" y1="74" x2="276" y2="74" stroke="#e8e8ed"/>
+              <!-- Checklist items -->
+              <g font-family="Inter,sans-serif" font-size="11" fill="#1d1d1f">
+                <g transform="translate(24,100)">
+                  <circle cx="8" cy="0" r="8" fill="#34c759"/>
+                  <path d="M4 0 L7 3 L12 -3" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+                  <text x="26" y="4">Specificity</text>
+                </g>
+                <g transform="translate(24,128)">
+                  <circle cx="8" cy="0" r="8" fill="#34c759"/>
+                  <path d="M4 0 L7 3 L12 -3" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+                  <text x="26" y="4">Linearity &amp; range</text>
+                </g>
+                <g transform="translate(24,156)">
+                  <circle cx="8" cy="0" r="8" fill="#34c759"/>
+                  <path d="M4 0 L7 3 L12 -3" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+                  <text x="26" y="4">Accuracy &amp; precision</text>
+                </g>
+                <g transform="translate(24,184)">
+                  <circle cx="8" cy="0" r="8" fill="#34c759"/>
+                  <path d="M4 0 L7 3 L12 -3" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+                  <text x="26" y="4">LOD / LOQ</text>
+                </g>
+                <g transform="translate(24,212)">
+                  <circle cx="8" cy="0" r="8" fill="#34c759"/>
+                  <path d="M4 0 L7 3 L12 -3" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+                  <text x="26" y="4">Robustness</text>
+                </g>
+              </g>
+            </g>
+            <!-- Audit stamp -->
+            <g transform="translate(460,250)">
+              <circle cx="0" cy="0" r="48" fill="none" stroke="#0071e3" stroke-width="2"/>
+              <circle cx="0" cy="0" r="40" fill="none" stroke="#0071e3" stroke-width="1"/>
+              <text x="0" y="-6" font-family="Inter,sans-serif" font-size="10" font-weight="700" letter-spacing=".12em" fill="#0071e3" text-anchor="middle">APPROVED</text>
+              <text x="0" y="10" font-family="Inter,sans-serif" font-size="8" font-weight="600" letter-spacing=".1em" fill="#0071e3" text-anchor="middle">QA · GMP</text>
+              <text x="0" y="24" font-family="Inter,sans-serif" font-size="7" letter-spacing=".08em" fill="#0071e3" text-anchor="middle">21 CFR 11</text>
+            </g>
+          </svg>
         </div>
         <div class="service__body">
           <p class="service__eyebrow">03 &mdash; Quality</p>
-          <h3>Quality Management</h3>
-          <p class="muted">GMP compliance, data integrity, and regulatory readiness &mdash; baked into every SOP.</p>
+          <h3>Quality management.</h3>
+          <p class="muted">GMP compliance, data integrity, and regulatory readiness &mdash; engineered into every SOP and audit trail.</p>
           <ul>
             <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Good Documentation Practices (GDP)</li>
             <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>GMP support &amp; compliance advisory</li>
@@ -829,29 +1088,6 @@ body.no-scroll { overflow: hidden; }
         </div>
       </article>
 
-      <!-- Quality Assurance -->
-      <article class="service reveal reveal--delay-1">
-        <div class="service__media">
-          <!-- Image: quality inspector reviewing calibration records at an instrument (Unsplash photo-1554475901-4538ddfbccc2) -->
-          <img src="https://images.unsplash.com/photo-1554475901-4538ddfbccc2?auto=format&amp;fit=crop&amp;w=1600&amp;q=80"
-               sizes="(min-width: 720px) 48vw, 100vw"
-               alt="Quality specialist reviewing instrument calibration and qualification records in a laboratory."
-               width="1600" height="900" loading="lazy" decoding="async">
-        </div>
-        <div class="service__body">
-          <p class="service__eyebrow">04 &mdash; QA</p>
-          <h3>Quality Assurance</h3>
-          <p class="muted">Qualification, compliance, and audit readiness &mdash; ensuring your systems and processes meet regulatory expectations.</p>
-          <ul>
-            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>IQ / OQ / PQ instrument qualification</li>
-            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Vendor qualification &amp; internal audits</li>
-            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Schedule L compliance &amp; document archival</li>
-            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>CAPA management &amp; corrective action support</li>
-            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Staff qualification &amp; training programs</li>
-            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Regulatory inspection readiness</li>
-          </ul>
-        </div>
-      </article>
     </div>
   </div>
 </section>
@@ -864,8 +1100,8 @@ body.no-scroll { overflow: hidden; }
   <div class="container">
     <div class="section-head reveal">
       <p class="eyebrow">Product coverage</p>
-      <h2 id="coverage-title">Every dosage form. One lab</h2>
-      <p>From simple tablets to complex biopharmaceuticals and nanoparticle-based formulations &mdash; we have the methods, the hardware, and the team.</p>
+      <h2 id="coverage-title">Every dosage form. One laboratory.</h2>
+      <p>From conventional tablets to complex biopharmaceuticals and nanoparticle-based formulations &mdash; supported by qualified methods, validated instrumentation, and trained specialists.</p>
     </div>
     <div class="coverage__pills reveal reveal--delay-1">
       <span class="pill">APIs &amp; KSMs</span>
@@ -891,8 +1127,8 @@ body.no-scroll { overflow: hidden; }
   <div class="container">
     <div class="section-head reveal">
       <p class="eyebrow">Capabilities</p>
-      <h2 id="caps-title">Instrumentation worth trusting</h2>
-      <p>Cutting-edge analytical and microbiological hardware from Agilent, Waters, Shimadzu, Malvern, Bruker, and Dionex &mdash; maintained, qualified, and operated by trained specialists.</p>
+      <h2 id="caps-title">Instrumentation, qualified and maintained.</h2>
+      <p>Analytical and microbiological hardware from Agilent, Waters, Shimadzu, Malvern, Bruker, and Dionex &mdash; operated under IQ/OQ/PQ qualification by trained specialists.</p>
     </div>
 
     <div class="caps__grid">
@@ -932,8 +1168,8 @@ body.no-scroll { overflow: hidden; }
   <div class="container">
     <div class="section-head reveal">
       <p class="eyebrow">Accreditations &amp; certifications</p>
-      <h2 id="accred-title">Trusted. Certified. Compliant</h2>
-      <p>Our certifications reflect a daily commitment to quality, safety, and regulatory excellence.</p>
+      <h2 id="accred-title">Credentialed. Audited. Compliant.</h2>
+      <p>Each accreditation reflects a sustained, verifiable commitment to quality, safety, and regulatory excellence.</p>
     </div>
     <div class="accred__grid reveal reveal--delay-1">
       <div class="accred__card"><div class="mark">NABL</div><h4>NABL Accredited</h4><p>National Accreditation Board for Testing &amp; Calibration Laboratories.</p></div>
@@ -952,11 +1188,11 @@ body.no-scroll { overflow: hidden; }
      ========================================= -->
 <section class="cta-band" aria-labelledby="cta-title">
   <div class="container cta-band__content reveal">
-    <p class="eyebrow" style="color: rgba(255,255,255,.7);">Let's work together</p>
-    <h2 id="cta-title">Ship with certainty</h2>
-    <p>Whether you need method development, routine release testing, or a full stability program &mdash; our team turns around precision results on your timeline.</p>
+    <p class="eyebrow" style="color: rgba(255,255,255,.7);">Engage our team</p>
+    <h2 id="cta-title">Certainty at every analytical milestone.</h2>
+    <p>Method development, routine release testing, or full stability programs &mdash; delivered to regulatory timelines with a documented chain of evidence.</p>
     <div class="btn-row">
-      <a class="btn btn--inverse btn--lg" href="#contact">Request a quote</a>
+      <a class="btn btn--inverse btn--lg" href="#contact">Request a proposal</a>
       <a class="btn btn--ghost btn--lg" href="mailto:bd@obvezlabs.com" style="color: #fff; border-color: rgba(255,255,255,.4);">bd@obvezlabs.com</a>
     </div>
   </div>
@@ -970,8 +1206,8 @@ body.no-scroll { overflow: hidden; }
   <div class="container contact__grid">
     <div class="reveal">
       <p class="eyebrow">Contact</p>
-      <h2 id="contact-title">Let's start a conversation</h2>
-      <p class="lead" style="margin-top:18px;">Reach out to our Business Development team for inquiries, quotations, or to schedule a facility visit.</p>
+      <h2 id="contact-title">Engage Obvez Labs.</h2>
+      <p class="lead" style="margin-top:18px;">Our Business Development team responds to inquiries, scope requests, and facility-visit bookings within one business day.</p>
 
       <div class="contact__info" style="margin-top: 40px;">
         <div class="contact__row">
@@ -1046,9 +1282,9 @@ body.no-scroll { overflow: hidden; }
             <option>Analytical services</option>
             <option>Microbiology services</option>
             <option>Quality management</option>
-            <option>Quality Assurance</option>
             <option>Method development &amp; validation</option>
             <option>Stability studies</option>
+            <option>Regulatory submission support</option>
             <option>Other</option>
           </select>
         </div>
@@ -1056,10 +1292,10 @@ body.no-scroll { overflow: hidden; }
       <div class="form__row">
         <div>
           <label for="f-message">Message</label>
-          <textarea id="f-message" name="message" rows="4" required aria-required="true" placeholder="Tell us about your requirements…"></textarea>
+          <textarea id="f-message" name="message" rows="4" required aria-required="true" placeholder="Outline the scope, regulatory market, and timelines for your study."></textarea>
         </div>
       </div>
-      <button type="submit" class="btn btn--primary" style="width: 100%; padding: 16px;">Send message</button>
+      <button type="submit" class="btn btn--primary" style="width: 100%; padding: 16px;">Submit inquiry</button>
       <p class="form__status" id="formStatus" role="status" aria-live="polite"></p>
     </form>
   </div>
@@ -1080,7 +1316,7 @@ body.no-scroll { overflow: hidden; }
           <span class="mark" aria-hidden="true">OL</span>
           Obvez Labs Pvt. Ltd.
         </div>
-        <p class="footer__desc">Analytical &amp; microbiological contract research. NABL accredited, FDA licensed, ISO certified. Based in Hyderabad, serving pharma worldwide.</p>
+        <p class="footer__desc">Pharmaceutical analytical and microbiological contract research. NABL accredited, FDA licensed, ISO 9001 and ISO 45001 certified. Headquartered in Hyderabad; serving regulated pharma markets worldwide.</p>
       </div>
 
       <div>
@@ -1194,13 +1430,13 @@ body.no-scroll { overflow: hidden; }
     form.addEventListener('submit', (e) => {
       e.preventDefault();
       if (!form.checkValidity()) {
-        status.textContent = 'Please fill in the required fields.';
+        status.textContent = 'Please complete the required fields.';
         status.removeAttribute('data-state');
         form.reportValidity();
         return;
       }
       // TODO: wire to real endpoint (e.g., Formspree, Netlify Forms, own API).
-      status.textContent = 'Thanks — we\'ll get back to you within one business day.';
+      status.textContent = 'Inquiry received. Our Business Development team will respond within one business day.';
       status.setAttribute('data-state', 'success');
       form.reset();
       setTimeout(() => { status.textContent = ''; status.removeAttribute('data-state'); }, 6000);
